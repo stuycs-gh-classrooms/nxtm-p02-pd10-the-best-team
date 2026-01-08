@@ -16,12 +16,20 @@ Explain what skills from this semester you will be using in this project, and ho
 How will your program be controlled? List all keyboard commands and mouse interactions.
 
 Keyboard Commands:
-- LIST OF COMMANDS HERE
+- R: Reveal bombs if unsolved.
+- R: Reset puzzle if solved/failed.
 
 Mouse Control:
-- Mouse movement:
-- Mouse pressed:
+- Mouse movement: N/A
+- Mouse pressed: Reveal tile.
+- MouseAlt pressed: Set Flag.
 
 
 ### Classes
 What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes. If you are going to use classes similar to those we've made for previous assignments, you will have to add new features to them.
+
+## Tile Class
+Variables
+- Bool Bomb: whether or not the tile has a bomb.
+- Bool Flag: whether or not the tile has a flag.
+- Bool Revealed: whether or not the tile is revealed.
