@@ -7,7 +7,7 @@
 ---
 
 ### Project Description
-We will be creating a version of minesweeper, where the first click will reveal all non bomb tiles in a 3 by 3 radius. Every tile will have a number displaying the number of bombs they border in a 3 by 3 radius. The player will have a number of flags, that will also be the exact amount of bombs, where the player can mark the bombs with the flags to safely search a tile. The goal of the game is to reveal all non bomb tiles.
+We will be creating a version of minesweeper, where clicking a tile will reveal it, if it is a bomb you lose, if it is a tile that borders a bomb only that tile is revealed, but if the tile clicked has no bombs bordering it, then it will reveal everytile bordering the clicked tile, if there is no tile that indicates a bomb bordering that tile, it will reveal more tiles. Every tile will have a number displaying the number of bombs they border in a 3 by 3 radius. The player will have a number of flags, that will also be the exact amount of bombs, where the player can mark the bombs with the flags to safely search a tile. The goal of the game is to reveal all non bomb tiles.
 
 ### Skill Usage
 1. Basic Drawing Functions
