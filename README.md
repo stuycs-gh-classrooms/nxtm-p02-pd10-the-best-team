@@ -10,7 +10,23 @@
 We will be creating a version of minesweeper, where the first click will reveal all non bomb tiles in a 3 by 3 radius. Every tile will have a number displaying the number of bombs they border in a 3 by 3 radius. The player will have a number of flags, that will also be the exact amount of bombs, where the player can mark the bombs with the flags to safely search a tile. The goal of the game is to reveal all non bomb tiles.
 
 ### Skill Usage
-Explain what skills from this semester you will be using in this project, and how they will be used.
+1. Basic Drawing Functions
+2. Controlling Color State
+3. Using Colors
+4. Primitive Variables and Types
+5. Working with Boolean Values
+6. Working with setup and draw
+8. Custom Functions
+9. Writing Readable Code
+10. Debugging Practices
+11. Conditional Statements
+12. Loops
+13. Handling Events
+14. Using Objects
+15. Writing Classes
+16. Using Arrays
+21. Utilzing Nomenclature and Adhering to Specification
+22. Utilizing Randomness in Programs
 
 ### Controls
 How will your program be controlled? List all keyboard commands and mouse interactions.
