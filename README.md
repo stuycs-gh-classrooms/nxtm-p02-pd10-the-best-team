@@ -7,7 +7,7 @@
 ---
 
 ### Project Description
-Provide a high-level description of your project. Include explanatory links if you think they will be helpful.
+We will be creating a version of minesweeper, where the first click will reveal all non bomb tiles in a 3 by 3 radius. Every tile will have a number displaying the number of bombs they border in a 3 by 3 radius. The player will have a number of flags, that will also be the exact amount of bombs, where the player can mark the bombs with the flags to safely search a tile. The goal of the game is to reveal all non bomb tiles.
 
 ### Skill Usage
 Explain what skills from this semester you will be using in this project, and how they will be used.
