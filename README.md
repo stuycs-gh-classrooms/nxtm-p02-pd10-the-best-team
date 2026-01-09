@@ -1,25 +1,51 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/jiVqpuMN)
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=22153717)
 # NeXtCS Final Project
-### Name 0: YOUR NAME HERE
-### Name 1: OTHER NAME HERE (delete this line if not applicable)
-### Name 2: OTHER NAME HERE (delete this line if not applicable)
+### Name 0: Jed Sloan
+### Name 1: Mohammed Ullah
+### Name 2: Zachariah Fan
 ---
 
 ### Project Description
-Provide a high-level description of your project. Include explanatory links if you think they will be helpful.
+We will be creating a version of minesweeper, where clicking a tile will reveal it, if it is a bomb you lose, if it is a tile that borders a bomb only that tile is revealed, but if the tile clicked has no bombs bordering it, then it will reveal everytile bordering the clicked tile, if there is no tile that indicates a bomb bordering that tile, it will reveal more tiles. Every tile will have a number displaying the number of bombs they border in a 3 by 3 radius. The player will have a number of flags, that will also be the exact amount of bombs, where the player can mark the bombs with the flags to safely search a tile. The goal of the game is to reveal all non bomb tiles.
 
 ### Skill Usage
-Explain what skills from this semester you will be using in this project, and how they will be used.
+1. Basic Drawing Functions
+2. Controlling Color State
+3. Using Colors
+4. Primitive Variables and Types
+5. Working with Boolean Values
+6. Working with setup and draw
+8. Custom Functions
+9. Writing Readable Code
+10. Debugging Practices
+11. Conditional Statements
+12. Loops
+13. Handling Events
+14. Using Objects
+15. Writing Classes
+16. Using Arrays
+21. Utilzing Nomenclature and Adhering to Specification
+22. Utilizing Randomness in Programs
 
 ### Controls
 How will your program be controlled? List all keyboard commands and mouse interactions.
 
 Keyboard Commands:
-- LIST OF COMMANDS HERE
+- R: Reveal bombs if unsolved.
+- R: Reset puzzle if solved/failed.
 
 Mouse Control:
-- Mouse movement:
-- Mouse pressed:
+- Mouse movement: N/A
+- Mouse pressed: Reveal tile.
+- MouseAlt pressed: Set Flag.
 
 
 ### Classes
 What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes. If you are going to use classes similar to those we've made for previous assignments, you will have to add new features to them.
+
+## Tile Class
+Variables
+- Bool Bomb: whether or not the tile has a bomb.
+- Bool Flag: whether or not the tile has a flag.
+- Bool Revealed: whether or not the tile is revealed.
